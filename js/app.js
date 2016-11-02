@@ -1,5 +1,11 @@
 (function() {
   'use strict';
 
-  document.getElementById('js-not').remove();
+  // Example code
+  var not = document.getElementById('js-not')
+  if (not) {
+    not.remove();
+  }
+  ///////////////
+
 })();
