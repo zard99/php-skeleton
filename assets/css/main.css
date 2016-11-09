@@ -15,22 +15,72 @@ body
 	width: 100%;
 }
 
-#separator-left
+#section-left
 {
 	background-color: #47d1af;
 	min-height: 100%;
-    min-width: 1400px;
+    min-width: 70%;
     display: flex;
     flex-direction: column;
 }
 
-/* PROVA @media screen and (max-width: 767px)
+@media screen and (max-width: 768px)
 {
-	#separator-left
+	#section-left
 	{
 		background-color: #f7edeb;
+		width: 100%!important;
+		min-height: 100%!important;
 	}
-}*/
+	#section-right
+	{
+		display: none;
+	}
+	#text-head
+	{
+		color: black!important;
+		text-align: center!important;
+		padding: 0px!important;
+		margin: 0px!important;
+		font-size: 60px!important;
+		letter-spacing: 0px!important;
+	}
+	#text-bottom
+	{
+		color: black!important;
+		order: 2!important;
+		font-size: 1.8em!important;
+		text-align: center!important;
+		padding: 0px!important;
+		margin-right: 20px!important;
+		margin-left: 20px!important;
+	}
+	#searchcontainer
+	{
+		width: 80%!important;
+    	margin-left: 7%!important;
+    	position: absolute!important;
+    	bottom: 20px!important;
+	}
+	#inputbar
+	{
+		text-align: center!important;
+	}
+	#searchbutton
+	{
+		background-color: #47d1af!important;
+		width: 100%!important;
+    	margin-left: 10px!important;
+	}
+	#recycle-img-mobile
+	{
+		display: block!important;
+		position: absolute!important;
+	    opacity: 0.2!important;
+	    margin-top: 10%!important;
+	    width: 100%!important;
+	}
+}
 
 #content
 {
@@ -40,7 +90,7 @@ body
 	overflow: hidden;
 }
 
-#separator-right
+#section-right
 {
 	border-width: 1px;
     border-left-style: solid;
@@ -55,11 +105,6 @@ body
 
 }
 
-#wrapper
-{
-	padding-bottom: 20px;
-}
-
 #text-head
 {
 	color: white;
@@ -67,15 +112,20 @@ body
 	font-size: 5em;
 	letter-spacing: 4px;
 	margin: 0px;
-	margin-top: 20px;
 	margin-left: 50px; 
+	margin-top: 20px;
 	padding: 0px;
+	padding-right: 150px;
+	order: 1;
 }
 
 #searchcontainer
 {
-	margin-top: 200px;
-	margin-left: 150px;
+	margin-top: 10%;
+    width: 50%;
+    margin-left: 10%;
+    text-align: center;
+    order: 3;
 }
 
 #inputbar
@@ -84,11 +134,11 @@ body
 	border-style: solid;
 	border-width: 1px;
 	font-size: 1.4em;
-	height: 40px;
+	height: 50px;
 	margin: 0px;
 	padding-left: 10px;
 	padding-right: 10px;
-	width: 600px;
+	width: 100%;
 }
 
 #searchbutton
@@ -99,7 +149,6 @@ body
 	color: white;
 	font-size: 28px;
 	height: 50px;
-	margin-left: 205px;
 	margin-top: 20px;
 	padding: 0px;
 	width: 200px;
@@ -108,11 +157,13 @@ body
 #text-bottom
 {
 	color: white;
-	font-family: 'Actor', sans-serif;
-	font-size: 2.5em;
-	margin: 0px;
-	margin-left: 60px;
-	margin-top: 200px;
+    font-family: 'Actor', sans-serif;
+    font-size: 2em;
+    margin: 0px;
+    margin-left: 3%;
+    margin-top: 15%;
+    padding-right: 100px;
+    order: 4;
 }
 
 #recycle-img
@@ -124,4 +175,9 @@ body
     top: 10%;
     left: -10%;
     opacity: 0.5;
+}
+
+#recycle-img-mobile
+{
+	display: none;
 }

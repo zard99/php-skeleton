@@ -11,12 +11,13 @@
 	</head>
 	<body>
 		<div id="content">
-			<div id="separator-left">
+			<div id="section-left">
+			<img src="/assets/images/recycle.png" id="recycle-img-mobile">
 				<div id="text-head"> 
 					Recycle in <br> Barletta
 				</div>
 				<div id="searchcontainer">
-					<input type="text" name="searchbar" id="inputbar" placeholder="Es. : Butstina di patatine">
+					<input type="text" name="searchbar" id="inputbar" placeholder="Es. : Bustina di patatine">
 					<br>
 					<button id="searchbutton"> Cerca </button>
 				</div>
@@ -26,7 +27,7 @@
 					Inserisci l’oggetto in questa pagina, noi ti diremo dove! <br>
 				</p>
 			</div>
-			<div id="separator-right">
+			<div id="section-right">
 				<img src="assets/images/recycle.png" id="recycle-img">
 			</div>
 		</div>
