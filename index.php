@@ -18,9 +18,11 @@
 					Recycle in <br> Barletta
 				</div>
 				<div id="searchcontainer">
-					<input type="text" name="searchbar" id="inputbar" placeholder="Es. : Bustina di patatine">
-					<br>
-					<a href="result.php"><button id="searchbutton" class="button"> Cerca </button></a>
+					<form action="result.php">
+						<input type="text" name="searchbar" id="inputbar" placeholder="Es. : Bustina di patatine">
+						<br>
+						<button id="searchbutton" class="button"> Cerca </button>
+					</form>
 				</div>
 				<p id="text-bottom">
 					Riciclare é importante, ma non sempre facile. <br>

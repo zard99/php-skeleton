@@ -23,7 +23,9 @@
 					Ricicla <strong> Tetrapack </strong> <br>
 					come : <strong> Plastica </strong>
 				</div>
-				<a href="index.html"><button id="backbutton" class="button"> Indietro </button> </a>
+				<form action="index.php" style="z-index: 2;">
+				<button id="backbutton" class="button"> Indietro </button>
+				</form>
 			</div>
 		</div>
 
