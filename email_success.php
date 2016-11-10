@@ -1,23 +1,23 @@
 <?php $title = 'Email'; require('./partials/head.php'); ?>
 
-<div id="content">
+		<div id="content">
 			<img src="assets/images/recycle.png" id="recycle-img-mobile">
-			<div id="section-right" class="line-right">
+			<div id="section-line-container" class="line-slash-right line-properties">
 				<div id="sad-face"> :( </div>
 				<img src="assets/images/recycle.png" id="recycle-img" class="img-left">
 			</div>
-			<div id="section-left">
-				<div id="text-head" class="pos-right"> 
+			<div id="section-content-container">
+				<div id="text-head" class="text-head-to-right"> 
 					Recycle in <br> Barletta
 				</div>
 				<div id="result-container">
 					<strong> Grazie! </strong>
 				</div>
 				<p class="text">
-					Ti avviseremo non appena sapremo come riciclare Polistirolo
+					Ti invieremo una email a <?php echo($_POST['email']); ?> non appena sapremo come riciclare Polistirolo
 				</p>
 				<form action="index.php" style="z-index: 2;">
-					<button id="backbutton" class="button"> Indietro </button>
+					<button id="backbutton" class="button button-dark button-to-right button-resize-paint-green"> Indietro </button>
 				</form>				
 			</div>
 		</div>
