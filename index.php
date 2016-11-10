@@ -12,16 +12,16 @@
 </form> -->
 
 		<div id="content">
-			<div id="section-left">
+			<div id="section-content-container">
 			<img src="assets/images/recycle.png" id="recycle-img-mobile">
-				<div id="text-head" class="margin-text-head-left"> 
+				<div id="text-head" class="text-head-to-left"> 
 					Recycle in <br> Barletta
 				</div>
 				<div id="searchcontainer">
-					<form action="result.php">
-						<input type="text" name="searchbar" id="inputbar" placeholder="Es. : Bustina di patatine">
+					<form action="result.php" method="GET">
+						<input type="text" name="object" id="input-bar" class="bar-property" placeholder="Es. : Bustina di patatine" required>
 						<br>
-						<button id="searchbutton" class="button"> Cerca </button>
+						<button id="search-button" class="button button-dark"> Cerca </button>
 					</form>
 				</div>
 				<p id="text-bottom">
@@ -30,7 +30,7 @@
 					Inserisci l’oggetto in questa pagina, noi ti diremo dove! <br>
 				</p>
 			</div>
-			<div id="section-right" class="line-left">
+			<div id="section-line-container" class="line-slash-left line-properties">
 				<img src="assets/images/recycle.png" id="recycle-img" class="img-right">
 			</div>
 		</div>
