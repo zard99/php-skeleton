@@ -7,6 +7,7 @@
 	  <title><?php echo($title); ?></title>
 	  <link rel="stylesheet" href="/assets/css/main.css" type="text/css">
 	  <link href="https://fonts.googleapis.com/css?family=Actor" rel="stylesheet" type="text/css">
+	  <link rel="icon" href="/assets/images/favicon.png" type="image/png" sizes="16x16">
 	  <!-- La parte del javascript per ora non ci interessa <script type="text/javascript" src="/assets/js/app.js" async></script> -->
 	</head>
 	<body>
